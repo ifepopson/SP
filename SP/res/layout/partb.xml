@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/al"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alternative Service"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TICK THE  BOX IF ALTERNATIVE IS PREFERRED CHOICE "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="No." />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Journey time is ......" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Fare is" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Choose Alternative?" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="5 minutes faster than now" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="40 naira more" />
+
+            <RadioGroup
+                android:id="@+id/q1check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/q1yes"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/q1no"
+                    android:text="No" />
+
+                </RadioGroup>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="20 minutes faster than now" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="60 naira more" />
+
+            <RadioGroup
+                android:id="@+id/q2check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/q2yes"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/q2no"
+                    android:text="No" />
+
+                </RadioGroup>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="10 minutes slower than now" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="40 naira less" />
+
+           <RadioGroup
+                android:id="@+id/q3check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/q3yes"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/q3no"
+                    android:text="No" />
+
+                </RadioGroup>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="15 minutes slower than now" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="20 naira less" />
+
+            <RadioGroup
+                android:id="@+id/q4check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                >
+
+                <RadioButton
+                    android:id="@+id/q4yes"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/q4no"
+                    android:text="No" />
+
+                </RadioGroup>
+        </TableRow>     
+
+    </TableLayout>
+    
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="7dp"
+                android:text="ALTERNATIVE ROUTE – CHOICE QUESTIONS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+          
+        </LinearLayout>
+        
+      <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+             <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="No." />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="The Stop Is  " />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Journey time is " />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Fare is . . ." />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="Choose Alternative?" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="5" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="5 minutes further than now" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="the same as now" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="50 Naira less than now" />
+
+                <RadioGroup
+                    android:id="@+id/q5check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp" >
+
+                    <RadioButton
+                        android:id="@+id/q5yes"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/q5no"
+                        android:text="No" />
+                </RadioGroup>
+            </TableRow>
+            
+          <TableRow
+                android:id="@+id/q6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="6" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="15 minutes further than now " />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="20 minutes faster than now" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="40 Naira less than now" />
+
+                <RadioGroup
+                    android:id="@+id/q6check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp" >
+
+                    <RadioButton
+                        android:id="@+id/q6yes"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/q6no"
+                        android:text="No" />
+                </RadioGroup>
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/q7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="7" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="5 minutes nearer than now" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="10 minutes faster than now" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="70 Naira more than now" />
+
+                <RadioGroup
+                    android:id="@+id/q7check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp" >
+
+                    <RadioButton
+                        android:id="@+id/q7yes"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/q7no"
+                        android:text="No" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/q8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="8" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="10 minutes " />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="5 minutes slower than now" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="30 Naira more than now" />
+
+                <RadioGroup
+                    android:id="@+id/q8check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp" >
+
+                    <RadioButton
+                        android:id="@+id/q8yes"
+                        android:text="Yes" />
+
+                    <RadioButton
+                        android:id="@+id/q8no"
+                        android:text="No" />
+                </RadioGroup>
+            </TableRow>
+            
+      </TableLayout>
+      
+      
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:padding="6dp"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="close"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Thanks and close" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="next"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:text="Next" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

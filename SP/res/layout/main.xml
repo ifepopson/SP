@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Main" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:text="Danfo"
+                android:background="#F0F812"
+                android:onClick="danfobus"
+                android:tag="Danfo"
+               /><requestFocus />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:onClick="danfobus"
+                android:text="BRT"
+                android:tag="BRT"
+                android:background="#0000FF"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:onClick="danfobus"
+                android:text="Rail"
+                android:tag="Rail"
+                android:background="#DB0BF4"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:onClick="danfobus"
+                android:text="Big Bus"
+                android:tag="Big Bus"
+                android:background="#E27426" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:onClick="danfobus"
+                android:text="Water Transport" 
+                android:tag="Water Transport"
+                android:background="#FF0000"/>
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:background="#00FF00"
+                android:onClick="car"
+                android:text="Cyclists"
+                android:tag="Cyclists" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:onClick="car"
+                android:text="Car(Passenger)"
+                android:tag="Car(Passenger)"  />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:onClick="car"
+                android:text="Walkers"
+                android:tag="Walkers"
+                />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:onClick="car"
+                android:text="Car(Driver)"
+                android:tag="Car(Driver)" 
+                />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:onClick="car"
+                android:text="Other 1"
+                android:tag="Other 1"
+                />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:onClick="car"
+                android:text="Other 2"
+                android:tag="Other 2"
+                 />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.17"
+                android:onClick="car"
+                android:text="Other 3" 
+                android:tag="Other 3"
+                />
+      
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

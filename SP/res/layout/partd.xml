@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please indicate which of the following apply to you: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="Q10.What is your occupation?(Tick ONE)
+" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/trade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:tag="Trade/Craft"
+            android:text="Trade/Craft" />
+
+        <RadioButton
+            android:id="@+id/Wage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wage Labour"
+            android:tag="Wage Labour" />
+
+        <RadioButton
+            android:id="@+id/Civil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Civil Servant" 
+            android:tag="Civil Servant"/>
+        
+        
+        <RadioButton
+            android:id="@+id/prof"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professional"
+            android:tag="Professional" />
+        
+        <RadioButton
+            android:id="@+id/student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student"
+            android:tag="Student" />
+        
+        <RadioButton
+            android:id="@+id/unemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unemployed"
+            android:tag="Unemployed" />
+        
+        <RadioButton
+            android:id="@+id/retired"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retired" 
+            android:tag="Retired"/>
+        
+        
+        <RadioButton
+            android:id="@+id/others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others" 
+            android:tag="Others"/>
+        
+    </RadioGroup>
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Q11.What is your total household income per month?(Tick ONE)
+" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/less10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:tag="Less than 50,000 naira"
+            android:text="Less than 50,000 naira" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50,000 – 74,999 naira"
+            android:tag="Between 50000 and 74999 naira" />
+
+        <RadioButton
+            android:id="@+id/radio6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="75,000 – 99,999 naira" 
+            android:tag="Between 75,000 and 99,999 naira"/>
+        
+        
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100,000 – 125,000 naira"
+            android:tag="Between 100000 and 125000 naira" />
+        
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="125,000 – 149,999 naira"
+            android:tag="Between 125000 and 149999 naira" />
+        
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150,000 – 199,999 naira"
+            android:tag="Between 150000 and 199999 naira" />
+        
+        <RadioButton
+            android:id="@+id/radio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="200,000 naira or more" 
+            android:tag="200000 or more"/>
+        
+        
+        <RadioButton
+            android:id="@+id/radio7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refused" 
+            android:tag="Refused"/>
+        
+    </RadioGroup>
+
+  
+
+</LinearLayout>
+
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Q12.How many people are there in your household?
+" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:padding="6dp" >
+    
+ <TextView
+             android:id="@+id/textView8"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Adults"
+             android:textAppearance="?android:attr/textAppearanceSmall" />
+         
+         <EditText
+             android:id="@+id/adult"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:ems="10"
+             android:inputType="number"
+             android:maxLength="2" >
+
+             <requestFocus />
+         </EditText>
+
+        <TextView
+             android:id="@+id/textView9"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Children"
+             android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+         <EditText
+             android:id="@+id/child"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:inputType="number"
+             android:maxLength="2" />
+
+         
+     </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="237dp"
+            android:onClick="save"
+            android:text="Submit" />
+
+    </RelativeLayout>
+    
+    
+
+</LinearLayout>
+</ScrollView>
